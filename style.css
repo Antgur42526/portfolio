@@ -1,0 +1,136 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+}
+
+/* Verrical Navigation bar */
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-left:10px ;
+}
+nav a:link{
+	color: yellow;
+}
+nav a:visited{
+	color: yellow;
+}
+nav a:hover{
+	color: blue;
+}
+nav a:active{
+	color: black;
+}
+h1{
+	text-align: center;
+}
+nav{
+	
+	border-top: 2px solid darkblue ;
+	border-bottom: 2px solid darkblue;
+}
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+table{
+	border-collapse: collapse;
+}
+td, th{
+	border: 1px solid lightblue;
+	padding: 5px;
+}
+input[type=submit]{
+	background-color: red;
+}
+p{
+	color: blue;
+}
+li{
+	color: red;
+}
+h2{
+	color: brown;
+}
+
+  h1{
+    line-height: 200%;
+    background-image:url(images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 0.3em;
+    height: 100%;
+    margin: 0;
+    font-size: 1.5em;
+
+  }
+    nav{
+      float: none;
+      width: auto;
+      padding: 0.5em;
+    }
+    h1{
+      margin: 0;
+    }
+    nav li{
+      display: inline;
+      background-color: #c6c6c6;
+      padding: 8px 10px;
+      border-radius: 3px;
+    }
+    nav li:hover{
+      background-color: #dddddd;
+    }
+    nav a{
+      padding: 1em;
+    }
+ 
+ 
+#saintpaulhero{
+  background-image:url(images/saintpaulcollege.jpg);
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: right;
+  }
+
+.logo{
+margin: 0 auto;
+display:block;
+}
+
+.guy{
+  
+display:block;
+float: left;
+height: 300 px;
+width: 300 px;
+}
+
+/* CSS for Tablets */
+
+@media only screen and (max-width:  1024px){
+  h1{
+  	font-size: 2em;
+  }
+}
+
+/* CSS for smartphones */
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+     }
+}
